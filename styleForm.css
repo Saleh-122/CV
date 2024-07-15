@@ -1,0 +1,35 @@
+li a:hover {
+    background-color: #000000;
+
+}
+
+
+#form {
+    margin-left: 700px;
+    margin-top: 50px;
+    border: 1px solid black;
+    margin-right: 300px;
+    padding: 50px;
+}
+
+label {
+    width: 188px;
+}
+
+.row {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+label,
+input {
+    margin-top: 30px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+#msg {
+    height: 100px;
+}
