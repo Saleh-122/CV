@@ -56,7 +56,7 @@ li a:hover {
         h1,
         h5 {
 
-
+            font-family: cursive;
             margin-left: 320px;
 
         }
@@ -87,11 +87,13 @@ li a:hover {
 
     div {
 
+
         display: inline-block;
 
         h1 {
             margin-top: 10px;
             margin-bottom: 20px;
+            font-family: cursive;
         }
 
         p {
@@ -100,12 +102,83 @@ li a:hover {
             border: 1px solid rgb(81, 75, 75);
             padding: 20px 20px 40px 20px;
             box-shadow: #111;
-            border-radius: 10px;
+            border-radius: 15px;
+            box-shadow: 0 0 6px 0.5px rgb(119, 119, 119);
+            font-family: monospace;
         }
 
         img {
             margin-top: -500px;
             height: 400px;
         }
+    }
+}
+
+#skills {
+
+    background-color: #003049;
+    width: 90%;
+    height: 820px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 2px rgb(119, 119, 119);
+
+    h1 {
+        color: whitesmoke;
+        font-family: serif;
+        margin-left: 70px;
+        padding-top: 50px;
+        font-size: 60px;
+        margin-bottom: -10px;
+
+    }
+
+
+}
+
+#skills div {
+    width: 175px;
+    height: 250px;
+    background-color: white;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 175px;
+    border-radius: 10px;
+    align-content: center;
+
+
+}
+
+.img {
+
+    width: 50%;
+    height: 150px;
+    margin-left: 45px;
+    margin-bottom: 70px;
+
+}
+
+.h2 {
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-top: -45px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+#project {
+
+    margin-top: 50px;
+
+    h1 {
+        margin-left: 30px;
+        margin-bottom: -10px;
+        color: #222f36;
+        font-size: 50px;
+
+
+
     }
 }
