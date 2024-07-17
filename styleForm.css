@@ -52,3 +52,17 @@ input {
     border-color: white;
     transform: translateY(-2px);
 }
+
+#anime {
+
+    animation: blinker 2s linear infinite;
+    color: red;
+    font-family: sans-serif;
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

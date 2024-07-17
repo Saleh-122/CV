@@ -98,7 +98,7 @@ li a:hover {
 
         p {
             color: rgb(0, 0, 0);
-            width: 400px;
+            width: 430px;
             border: 1px solid rgb(81, 75, 75);
             padding: 20px 20px 40px 20px;
             box-shadow: #111;
@@ -180,5 +180,38 @@ li a:hover {
 
 
 
+    }
+}
+
+.animated-button {
+    background-color: #008CBA;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px 10px 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 #006699;
+    width: 350px;
+    animation: example 1s infinite;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin-left: 20px;
+}
+
+@keyframes example {
+    0% {
+        background-color: #008CBA;
+    }
+
+    50% {
+        background-color: #006699;
+    }
+
+    100% {
+        background-color: #008CBA;
     }
 }
