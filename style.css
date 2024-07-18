@@ -215,3 +215,24 @@ li a:hover {
         background-color: #008CBA;
     }
 }
+
+@media (max-width :1300px) {
+    #about {
+        div {
+
+            height: 1200px;
+
+        }
+
+        img {
+
+            width: 200px;
+            height: 300px;
+        }
+    }
+
+    #skills {
+        height: 2200px;
+        margin-top: -1000px;
+    }
+}

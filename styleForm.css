@@ -12,6 +12,8 @@ li a:hover {
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px 0.5px rgb(119, 119, 119);
+
+
 }
 
 label {
@@ -36,9 +38,9 @@ input {
 }
 
 #btn {
-    margin-right: 170px;
+    margin-right: 100px;
     margin-top: 40px;
-    width: 100px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     text-align: center;
@@ -65,4 +67,29 @@ input {
     50% {
         opacity: 0;
     }
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+#btnn {
+    width: 250px;
+    margin-top: -5px;
+}
+
+#btnn:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width :1300px) {
+    #form {
+        width: 400px;
+    }
+
+
 }
